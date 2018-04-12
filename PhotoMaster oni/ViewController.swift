@@ -108,6 +108,8 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
             photoImageView.image = drawMaskImage(image: photoImageView.image!)
             
         } else {
+            
+            
             print("画像がありません")
         }
         
